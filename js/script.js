@@ -11,7 +11,7 @@ $(document).ready(function(){
 jQuery(document).ready(function(){
 	var aboutTop = jQuery('#about').offset().top-270;
 	var worksTop = jQuery('#works').offset().top-240;
-	var contactTop = jQuery('#contact').offset().top;
+	var contactTop = jQuery('#contact').offset().top+100;
 
 	
 	jQuery('.about-nav').click(function(){
